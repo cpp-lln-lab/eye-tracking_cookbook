@@ -1,17 +1,20 @@
 # Eye-tracking resources (or: How I learned to stop worrying and love the Eye-Tracker)
 
-This repo will help to understand how to set your experiment with the Eye-Tracker (for the moment Eye-Link 1000) and analyze the output in a thoughtful way. Its main goal is to gather together information/guide/code/etc. .
+This repo will help to understand how to set your experiment with the Eye-Tracker (for the moment Eye-Link 1000) and analyze the output in a thoughtful way. Its main goal is to gather together information/guides/links/codes/etc. .
 
 ## Setting up your experiment
 
+### PTB Eye-Tracker implementation
+
+cpp-lln-lab/CPP_PTB (what else!)
+
 ### Manuals
 - Eyelink1000_usermanual.pdf
-- Eyelink_DataViewer.
 - Eyetracker Output Utility Manual.pdf
 
-## Analyze your data
+## Output conversion
 
-### Output conversion
+### edf to ASCI
 
 - `edf2asc.exe` executable that converts the eye-tracker output from edf to ASCII format readable by MATLAB/R/Python, otherwise you will need DataViewer and its license key. It recquires windows OS.
 - `edf2ascALL.m` script to apply `edf2asc.exe` to your edf files, as they come from the eye tracker. It recquires windows OS.
@@ -20,3 +23,27 @@ This repo will help to understand how to set your experiment with the Eye-Tracke
 
   - `eye_ExpIDMTlocUL_RunID1_SubIDRoBo.edf`
   - `eye_ExpIDMTlocUL_RunID1_SubIDRoBo.asc`
+
+### BIDS format
+
+- fieldtriptoolbox
+[Converting an example eye tracker dataset for sharing in BIDS](http://www.fieldtriptoolbox.org/example/bids_eyetracker/)
+
+- bids-standard/bids-validatore#990
+[Why are "physio.tsv.gz" and its JSON currently not valid for eeg/meg/ieeg ? #990](https://github.com/bids-standard/bids-validator/issues/990)
+
+- BIDS Eye Tracking
+[BIDS Extension Proposal 20 (BEP020): Eye Tracking including Gaze Position and Pupil Size](https://docs.google.com/document/d/1eggzTCzSHG3AEKhtnEDbcdk-2avXN6I94X8aUPEBVsw/edit)
+
+## Analyze your data
+
+### Manuals
+- Eyelink_DataViewer.pdf
+
+### Open source packages
+
+#### MATLAB
+
+#### Python
+
+#### R
