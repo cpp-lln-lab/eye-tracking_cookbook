@@ -2,15 +2,19 @@
 
 This repo will help to understand how to set your experiment with the Eye-Tracker (for the moment Eye-Link 1000) and analyze the output in a thoughtful way. Its main goal is to gather together information/guides/links/codes/etc. .
 
+## Connect with the Eye Tracker computer
+
 ## Setting up your experiment
 
 ### PTB Eye-Tracker implementation
 
-cpp-lln-lab/CPP_PTB (what else!)
+- cpp-lln-lab/CPP_PTB (what else!)
 
-### Manuals
+- see also:
+  - The Eyelink Toolbox: Eye tracking with MATLAB and the Psychophysics Toolbox
+
+### EyeLink Manuals
 - Eyelink1000_usermanual.pdf
-- Eyetracker Output Utility Manual.pdf
 
 ## Output conversion
 
@@ -37,13 +41,27 @@ cpp-lln-lab/CPP_PTB (what else!)
 
 ## Analyze your data
 
-### Manuals
+### DataViewer
 - Eyelink_DataViewer.pdf
 
 ### Open source packages
 
 #### MATLAB
 
+- [Edf2Mat© Matlab Toolbox](https://github.com/uzh/edf-converter) Converts EyeLink 1000 Edf files into Matlab & fast analysis
+
 #### Python
 
+- [Cili](https://github.com/beOn/cili)
+
+- [PyGaze](https://github.com/esdalmaijer/PyGaze)
+
 #### R
+
+- [edfR](https://github.com/jashubbard/edfR)
+
+- [eyelinker](https://github.com/dahtah/eyelinker)
+
+### other
+
+- Eyetracker Output Utility Manual.pdf
