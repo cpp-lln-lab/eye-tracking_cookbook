@@ -2,6 +2,10 @@
 
 This repo will help to understand how to set your experiment with the Eye-Tracker (for the moment Eye-Link 1000) and analyze the output in a thoughtful way. Its main goal is to gather together information/guides/links/codes/etc. .
 
+## TO DO
+
+- [ ] extracting the function used by fieldtrip to convert the ascii output from the eyelink into a tsv file.
+
 ## Connect with the Eye Tracker computer
 
 ## Setting up your experiment
@@ -11,7 +15,7 @@ This repo will help to understand how to set your experiment with the Eye-Tracke
 - cpp-lln-lab/CPP_PTB (what else!)
 
 - see also:
-  - The Eyelink Toolbox: Eye tracking with MATLAB and the Psychophysics Toolbox
+  - Cornelissen, F. W., Peters, E. M., & Palmer, J. (2002). The Eyelink Toolbox: eye tracking with MATLAB and the Psychophysics Toolbox. Behavior Research Methods, Instruments, & Computers, 34(4), 613-617. [Web Version](https://link.springer.com/article/10.3758/BF03195489)
 
 ### EyeLink Manuals
 - Eyelink1000_usermanual.pdf
@@ -64,4 +68,5 @@ This repo will help to understand how to set your experiment with the Eye-Tracke
 
 ### other
 
+- [Remi-Gau/AVT_eye_tracker](https://github.com/Remi-Gau/AVT_eye_tracker)
 - Eyetracker Output Utility Manual.pdf
