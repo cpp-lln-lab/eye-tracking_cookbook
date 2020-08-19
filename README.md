@@ -50,6 +50,8 @@ This repo will help to understand how to set your experiment with the Eye-Tracke
 
 ### Open source packages
 
+[Researcher Contributed Eye Tracking Tools](https://github.com/davebraze/FDBeye/wiki/Researcher-Contributed-Eye-Tracking-Tools)
+
 #### MATLAB
 
 - [Edf2Mat© Matlab Toolbox](https://github.com/uzh/edf-converter) Converts EyeLink 1000 Edf files into Matlab & fast analysis
